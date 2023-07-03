@@ -32,3 +32,17 @@
     wiki: false
   init: true
   gitignore: Terraform
+
+- name: terraform-cloud
+  description: ""
+  public: true
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
