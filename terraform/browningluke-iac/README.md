@@ -16,7 +16,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_github_repos"></a> [github\_repos](#module\_github\_repos) | app.terraform.io/browningluke/repo/github | ~> 1.0 |
+| <a name="module_github_repos"></a> [github\_repos](#module\_github\_repos) | ../_modules/gh-repo | n/a |
 
 ## Resources
 

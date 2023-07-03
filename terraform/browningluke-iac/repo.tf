@@ -1,6 +1,11 @@
-module "github_repos" {
-  source  = "app.terraform.io/browningluke/repo/github"
-  version = "~> 1.0"
+locals {
+  env = "browningluke-iac"
 
-  repo_config = file("${path.module}/../../data/browningluke-iac.yml")
+  data_path = "${path.module}/../../data"
+}
+
+module "github_repos" {
+  source = "../_modules/gh-repo"
+
+  repo_config = yamldecode(file("${local.data_path}/${local.env}.yml"))
 }
