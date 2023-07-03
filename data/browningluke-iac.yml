@@ -1,0 +1,34 @@
+# example repo definition
+# - name: my-repo
+#   description: "my desc"  # default: ""
+#   public: true            # defaults: false
+#   archived: true          # defaults: false
+#   has:
+#     downloads: false      # default: true
+#     issues: false         # default: true
+#     projects: false       # default: true
+#     wiki: false           # default: true
+#   init: true              # default: true
+#   gitignore: Terraform    # default: null
+#   merge:
+#     auto: true            # default: false
+#     delete_branch: true   # default: false
+#     types:
+#       commit: true        # default: true
+#       squash: true        # default: true
+#       rebase: true        # default: true
+
+---
+- name: cloudflare
+  description: ""
+  public: true
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
