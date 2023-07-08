@@ -167,14 +167,3 @@
     wiki: false
   init: true
   gitignore: Terraform
-
-# ==== Supporting repos ====
-- name: dhcp-reservations
-  description: "Module for managing DHCP reservations in OPNsense"
-  public: true
-  has:
-    downloads: false
-    issues: false
-    projects: false
-    wiki: false
-  init: true
