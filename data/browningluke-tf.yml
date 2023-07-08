@@ -40,6 +40,7 @@
 
 # ==== Terraform Modules ====
 - name: terraform-github-repo
+  archived: true
   description: ""
   public: true
   template:
@@ -54,9 +55,9 @@
   gitignore: Terraform
 
 - name: terraform-tfe-organization
+  archived: true
   description: ""
   public: true
-  archived: false
   template:
     owner: browningluke-tf
     repo: tf-template
@@ -93,6 +94,7 @@
 
 # Cloudflare
 - name: terraform-cloudflare-record
+  archived: true
   description: ""
   public: true
   template:
@@ -107,6 +109,7 @@
   gitignore: Terraform
 
 - name: terraform-cloudflare-rule-transform
+  archived: true
   description: ""
   public: true
   template:
@@ -121,6 +124,7 @@
   gitignore: Terraform
 
 - name: terraform-cloudflare-rule-page
+  archived: true
   description: ""
   public: true
   template:
@@ -135,6 +139,7 @@
   gitignore: Terraform
 
 - name: terraform-cloudflare-rule-redirect
+  archived: true
   description: ""
   public: true
   template:
@@ -149,6 +154,7 @@
   gitignore: Terraform
 
 - name: terraform-cloudflare-rule-firewall
+  archived: true
   description: ""
   public: true
   template:
