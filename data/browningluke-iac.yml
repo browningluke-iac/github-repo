@@ -61,6 +61,20 @@
   init: true
   gitignore: Terraform
 
+- name: sso-infra
+  description: ""
+  public: false
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
 # ==== Supporting repos ====
 - name: dhcp-reservations
   description: "Module for managing DHCP reservations in OPNsense"
