@@ -4,7 +4,7 @@ terraform {
     organization = "browningluke"
 
     workspaces {
-      name = "homelab-github-browningluke-iac"
+      name = "github-browningluke-iac"
     }
   }
 }
