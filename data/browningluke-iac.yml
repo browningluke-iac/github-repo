@@ -63,6 +63,35 @@
   init: true
   gitignore: Terraform
 
+# ==== Vault ====
+- name: vault
+  description: ""
+  public: false
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
+- name: vault-infra
+  description: ""
+  public: true
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
 # ==== Supporting repos ====
 - name: terraform-cloud
   description: ""
