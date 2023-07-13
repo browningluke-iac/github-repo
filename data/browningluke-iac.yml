@@ -19,6 +19,7 @@
 #       rebase: true        # default: true
 
 ---
+# ==== Cloudflare ====
 - name: cloudflare
   description: ""
   public: true
@@ -33,20 +34,7 @@
   init: true
   gitignore: Terraform
 
-- name: terraform-cloud
-  description: ""
-  public: true
-  template:
-    owner: browningluke-tf
-    repo: tf-template
-  has:
-    downloads: false
-    issues: false
-    projects: false
-    wiki: false
-  init: true
-  gitignore: Terraform
-
+# ==== SSO ====
 - name: sso
   description: ""
   public: false
@@ -75,7 +63,50 @@
   init: true
   gitignore: Terraform
 
+# ==== Vault ====
+- name: vault
+  description: ""
+  public: false
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
+- name: vault-infra
+  description: ""
+  public: true
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
 # ==== Supporting repos ====
+- name: terraform-cloud
+  description: ""
+  public: true
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
 - name: dhcp-reservations
   description: "Module for managing DHCP reservations in OPNsense"
   public: true
