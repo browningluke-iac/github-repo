@@ -138,6 +138,16 @@
     wiki: false
   init: true
 
+- name: helm-argocd-apps
+  description: "Helm chart for ArgoCD applications"
+  public: true
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+
 - name: helm-vault
   description: "Helm chart for vault deployment"
   public: true
