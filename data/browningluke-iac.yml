@@ -116,3 +116,34 @@
     projects: false
     wiki: false
   init: true
+
+# ==== Helm ====
+- name: helm-apps
+  description: "Helm charts for all user-facing apps"
+  public: true
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+
+- name: helm-cluster
+  description: "Help charts for all cluster utilities"
+  public: true
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+
+- name: helm-vault
+  description: "Helm chart for vault deployment"
+  public: true
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
