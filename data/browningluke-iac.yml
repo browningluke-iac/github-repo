@@ -78,20 +78,6 @@
   init: true
   gitignore: Terraform
 
-- name: vault-infra
-  description: ""
-  public: true
-  template:
-    owner: browningluke-tf
-    repo: tf-template
-  has:
-    downloads: false
-    issues: false
-    projects: false
-    wiki: false
-  init: true
-  gitignore: Terraform
-
 # ==== PVE repos ====
 - name: pve-hosts
   description: ""
