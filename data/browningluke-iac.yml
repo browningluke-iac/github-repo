@@ -121,6 +121,20 @@
   init: true
   gitignore: Terraform
 
+- name: pve-templates
+  description: ""
+  public: true
+  template:
+    owner: browningluke-tf
+    repo: tf-template
+  has:
+    downloads: false
+    issues: false
+    projects: false
+    wiki: false
+  init: true
+  gitignore: Terraform
+
 # ==== Supporting repos ====
 - name: terraform-cloud
   description: ""
