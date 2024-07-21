@@ -193,7 +193,7 @@
 
 - name: helm-vault
   description: "Helm chart for vault deployment"
-  public: true
+  public: false
   has:
     downloads: false
     issues: false
